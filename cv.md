@@ -24,3 +24,8 @@ function testCycle(a, b) {
     return x;
 }
 ```
+## Education
+- Vitebsk State Technological University
+## Languages
+- Russian - native
+- English - A2
