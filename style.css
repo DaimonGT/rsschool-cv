@@ -1,0 +1,23 @@
+/*body*/
+.page_body {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+/*header*/
+.panel_navigation { 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(223, 223, 223);
+    font-size: 25px;
+    list-style: none;
+}
+/*aside*/
+.photo {
+    height: 500px;
+    width: 380px;
+}
