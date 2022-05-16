@@ -16,8 +16,17 @@
     font-size: 25px;
     list-style: none;
 }
+/*main*/
+.conteiner {
+    display: flex;
+}
 /*aside*/
 .photo {
     height: 500px;
     width: 380px;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(83, 83, 83);
 }
