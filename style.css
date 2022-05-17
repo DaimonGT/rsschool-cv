@@ -1,5 +1,5 @@
 /*body*/
-.page_body {
+body {
     margin: 0px;
     padding: 0px;
     margin-left: 15%;
@@ -9,8 +9,9 @@
 .panel_navigation { 
     margin: 0;
     padding: 0;
+    height: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: rgb(223, 223, 223);
     font-size: 25px;
@@ -28,5 +29,22 @@
 aside {
     display: flex;
     flex-direction: column;
-    background-color: rgb(83, 83, 83);
+    background-color: #343945;
+}
+.section_title {
+    padding-left: 5%;
+    background-color: rgb(247, 213, 127);
+    font-size: 26px;
+}
+.list1 {
+    list-style: none;
+}
+.item {
+    margin-bottom: 15px;
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+}
+/*right side*/
+.right_side {
+    width: 100%;
 }
