@@ -48,3 +48,25 @@ aside {
 .right_side {
     width: 100%;
 }
+.my_name {
+    padding-left: 5%;
+    font-size: 36px;
+}
+.profession {
+    padding-left: 5%;
+    font-size: 20px;
+}
+.about_me {
+    padding: 2% 0% 3% 5%;
+    font-size: 18px;
+}
+.my_skills {
+    list-style-type: none;
+}
+.item1 {
+    margin-bottom: 10px; 
+    font-size: 18px;
+}
+.code {
+    padding-left: 5%;
+}
