@@ -5,31 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dmitriy Bogdanov CV</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
             <ul class="panel_navigation">
-                <li class="Cell">About me</li>
-                <li class="Cell">Contact</li>
-                <li class="Cell">Education</li>
-                <li class="Cell">Skills</li>
-                <li class="Cell">Code</li>
-                <li class="Cell">Projects</li>
+                <li class="Cell"><a href="#about_me">About me</a></li>
+                <li class="Cell"><a href="#contacts">Contact</a></li>
+                <li class="Cell"><a href="#my_education">Education</a></li>
+                <li class="Cell"><a href="#skills">Skills</a></li>
+                <li class="Cell"><a href="#my_code">Code</a></li>
+                <li class="Cell"><a href="#my_projects">Projects</a></li>
             </ul>
         </nav>
     </header>
     <main class="conteiner">
     <aside>
         <div class="my_photo">
-        <img class="photo" src="img/Photo.jpg" alt="my photo">
+        <img class="photo" src="assets/img/Photo.jpg" alt="my photo">
         </div>
         <section>
-            <h2 class="section_title">Contact</h2>
+            <h2 class="section_title" id="contacts">Contact</h2>
             <ul class="list1">
                 <li class="item">Location:<br>Vitebsk, Belarus</li>
                 <li class="item">Email:<br>phenomenon13@mail.ru</li>
@@ -37,7 +38,7 @@
             </ul>
         </section>
         <section>
-            <h2 class="section_title">Education</h2>
+            <h2 class="section_title" id="my_education">Education</h2>
             <ul class="list1">
                 <li class="item">2010-2015<br>Vitebsk State Technological University</li>
                 <li class="item">2022<br>Light English</li>
@@ -50,7 +51,7 @@
             <p class="profession">Front-End developer</p>
         </Section>
         <section>
-            <h2 class="section_title">About me</h2>
+            <h2 class="section_title" id="about_me">About me</h2>
             <p class="about_me">I am 29 years old and now i am working in Yandex. I like to study and learn something new. 
                I like to fix different mechanical things for example mountain bikes and i like to solve interesting tasks. 
                I prefer an active lifestyle and active recreation, such as cycling. 
@@ -58,7 +59,7 @@
             </p>
         </section>
         <section>
-            <h2 class="section_title">Skills</h2>
+            <h2 class="section_title" id="skills">Skills</h2>
             <ul class="my_skills">
                 <li class="item1">HTML</li>
                 <li class="item1">CSS</li>
@@ -68,7 +69,7 @@
             </ul>
         </section>
         <section>
-            <h2 class="section_title">Code example</h2>
+            <h2 class="section_title" id="my_code">Code example</h2>
             <pre class="code">
                 <Code>
 <span style="color: #000066; font-weight: bold;">function</span> testCycle<span style="color: #009900;">&#40;</span>a<span style="color: #339933;">,</span> b<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
@@ -87,14 +88,19 @@
             </pre>
         </section>
         <section>
-            <h2 class="section_title">My projects</h2>
+            <h2 class="section_title" id="my_projects">My projects</h2>
+            <div class="list_project">
+                <div class="cv">
+                    <img src="assets/img/CV.PNG" alt="cv" class="img_cv">
+                </div>
+            </div>
         </section>
     </div>
     </main>
     <footer class="footer">
-        <a class="git" href="https://github.com/DaimonGT" target="_blank"><img src="img/Logo_github.png" alt="My GitHub" width="110"></a>
+        <a class="git" href="https://github.com/DaimonGT" target="_blank"><img src="assets/img/Logo_github.png" alt="My GitHub" width="110"></a>
         <p><b>2022</b></p>
-        <a href="https://rs.school/js/" target="_blank"><img src="img/rsschool.svg" width="70" alt="rsschool"></a>
+        <a href="https://rs.school/js/" target="_blank"><img src="assets/svg/rsschool.svg" width="70" alt="rsschool"></a>
     </footer>
 </body>
 </html>
