@@ -1,0 +1,114 @@
+/*body*/
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #EFEFEF;
+}
+/*style link*/
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+/*header*/
+.panel_navigation { 
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #594D46;
+    color: white;
+    font-size: 25px;
+    list-style: none;
+}
+.Cell:hover {
+    background-color: #D1B280;
+    color: black;
+}
+/*main*/
+.conteiner {
+    display: flex;
+}
+/*aside*/
+.my_photo {
+    height: 450px;
+    width: 380px;
+}
+.photo {
+    width: 100%;
+    object-fit: cover;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    background-color: #2F2E33;
+}
+.section_title {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 5%;
+    background-color: #D1B280;
+    font-size: 26px;
+}
+.list1 {
+    list-style: none;
+}
+.item {
+    margin-bottom: 15px;
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+}
+/*right side*/
+.right_side {
+    width: 100%;
+}
+.my_name {
+    padding-left: 5%;
+    font-size: 36px;
+}
+.profession {
+    padding-left: 5%;
+    font-size: 20px;
+}
+.about_me {
+    padding: 2% 0% 3% 5%;
+    font-size: 18px;
+}
+
+.item1 {
+    margin-left: 3%;
+    margin-bottom: 10px; 
+    font-size: 18px;
+}
+.code {
+    padding-left: 5%;
+}
+.list_project {
+    display: flex;
+    justify-content: space-between;
+}
+.cv {
+    height: 200px;
+    width: 300px;
+    margin: 0 0 3% 7%;
+    border: solid #D1B280;
+    overflow: hidden;
+}
+.img_cv {
+    max-width: 100%;
+    object-fit: cover;
+}
+/* footer*/
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #594D46;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+}
