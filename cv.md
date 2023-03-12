@@ -26,3 +26,6 @@ function testCycle(a, b) {
 ```
 ## Education
 - Vitebsk State Technological University
+## Languages
+- Russian - native
+- English - A2
